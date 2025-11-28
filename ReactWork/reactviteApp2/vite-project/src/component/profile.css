@@ -1,0 +1,34 @@
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin-bottom:40px;
+}
+
+
+.profile-card {
+  background-color: #6bd6f9;
+  color:beige;
+  border: 2px solid #ddd;
+  /* border-radius: 15px; */
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+
+
+h2 {
+  color: #444;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #555;
+  font-weight: 500;
+}
