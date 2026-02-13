@@ -75,24 +75,24 @@
 // greetings("rahul");
 
 
-  function selectlanguage(lang){
-    let data;
-    if(lang=='java'){
-        function javaCompiler(){
-            return "Java comiler selected";
-        }
-        data=javaCompiler();
-    }else if(lang=='c'){
-        function cCompiler(){
-            return "C compiler selected"
-        }
-        data=cCompiler();
-    }
-     else{
-        data="no such compiler available"
-     }
-     return data;
-  }
-selectlanguage('java');
+//   function selectlanguage(lang){
+//     let data;
+//     if(lang=='java'){
+//         function javaCompiler(){
+//             return "Java comiler selected";
+//         }
+//         data=javaCompiler();
+//     }else if(lang=='c'){
+//         function cCompiler(){
+//             return "C compiler selected"
+//         }
+//         data=cCompiler();
+//     }
+//      else{
+//         data="no such compiler available"
+//      }
+//      return data;
+//   }
+// selectlanguage('java');
 
   
