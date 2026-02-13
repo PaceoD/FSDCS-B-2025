@@ -2,7 +2,7 @@ const http=require('http');
 const PORT = 4004;
 const apidata = require('./apiCalling')
 
-const server =http.createServer((req,res)=>{
+const server =http.createServer(async(req,res)=>{
    // res.setHeader('Content-Type','application/json');
    // res.end("<h2 style =color:red>Welcome to node server</h2>");
    if(req.url="/msg" && req.method=="POST"){
@@ -20,7 +20,7 @@ const server =http.createServer((req,res)=>{
   }
    else if(req.url=="/data" && req.method=='GET'){
     res.setHeader('Content-Type','application/json');
-     const jsondata = apidata(20,200);
+     const jsondata = await apidata();
     
     res.end(JSON.stringify({msg:jsondata}))
   }
